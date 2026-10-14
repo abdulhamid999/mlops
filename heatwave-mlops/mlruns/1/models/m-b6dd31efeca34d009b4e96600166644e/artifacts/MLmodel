@@ -1,0 +1,24 @@
+artifact_path: /home/claude/heatwave-mlops/mlruns/1/models/m-b6dd31efeca34d009b4e96600166644e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.8.0
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-b6dd31efeca34d009b4e96600166644e
+model_size_bytes: 4073295
+model_uuid: m-b6dd31efeca34d009b4e96600166644e
+prompts: null
+run_id: 7b0e777066cb4496979db6a5adbde7f2
+utc_time_created: '2026-09-22 04:54:58.187927'
